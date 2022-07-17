@@ -64,6 +64,19 @@ body a {
     border: 5px solid rgba(137, 43, 226, 0.589);
 }
 
+
+.otherAmount {
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 18px;
+    color: grey;
+}
+
+.otherAmount::placeholder {
+    color: rgb(196, 196, 196);
+}
+
 #hr {
     margin-bottom: 45px;
 }
@@ -160,6 +173,7 @@ hr {
     margin-bottom: 70px;
 }
 
+
 .infoBox {
     background-color: rgba(9, 78, 156, 0.11);
     height: 220px;
@@ -172,10 +186,11 @@ hr {
 }
 
 #email {
-    width: 40%;
+    width: 35%;
     color: rgba(128, 128, 128, 0.959);
     background-color: rgba(128, 128, 128, 0.432);
     padding: 20px;
+    border: none;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 }
@@ -184,6 +199,9 @@ hr {
     color: white;
     background-color: blueviolet;
     padding: 20px;
+    border: none;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
 }
