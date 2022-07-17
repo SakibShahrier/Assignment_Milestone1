@@ -186,7 +186,7 @@ hr {
 }
 
 #email {
-    width: 35%;
+    width: 230px;
     color: rgba(128, 128, 128, 0.959);
     background-color: rgba(128, 128, 128, 0.432);
     padding: 20px;
@@ -204,6 +204,7 @@ hr {
     border-top-left-radius: 0;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
+    margin: -10px;
 }
 
 footer {
