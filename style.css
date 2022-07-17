@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body section {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.head {
+
+    background-image: linear-gradient(45deg, black, rgba(0, 0, 0, 0.24)), url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    height: 100vh;
+}
+
+.head div {
+    padding-top: 310px;
+    padding-left: 50px;
+}
+
+.head h1 {
+    font-size: 50px;
+}
+
+.head p {
+    font-size: 18px;
+}
+
+body a {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+#selectAmount {
+    text-align: center;
+    padding: 100px 250px;
+    width: 60%;
+
+}
+
+.amount {
+    display: flex;
+    padding: 40px 25px;
+}
+
+.amount h1 {
+    padding: 40px 20px;
+    background-color: rgba(137, 43, 226, 0.089);
+    margin: 20px;
+    font-size: 30px;
+    border-radius: 7px;
+}
+
+#select_200 {
+    background-color: rgba(137, 43, 226, 0.233);
+    border: 5px solid rgba(137, 43, 226, 0.589);
+}
+
+#hr {
+    margin-bottom: 45px;
+}
+
+#plan {
+    width: 80%;
+    padding: 10px 0px 150px 130px;
+}
+
+.h1 {
+    font-size: 45px;
+}
+
+.p {
+    font-size: 18px;
+    color: grey;
+}
+
+hr {
+
+    border: 1px solid rgba(128, 128, 128, 0.274);
+}
+
+#plan_heading {
+    text-align: center;
+}
+
+.planContent {
+    padding-top: 30px;
+    display: flex;
+}
+
+.planContent div {
+    width: 30%;
+    padding: 30px;
+    margin: 20px;
+}
+
+#food {
+    background-color: rgba(85, 9, 156, 0.26);
+}
+
+#shelter {
+    background-color: rgba(0, 74, 104, 0.247);
+}
+
+#education {
+    background-color: rgba(92, 43, 226, 0.178);
+}
+
+.donationDetailed1 {
+    width: 80%;
+    display: flex;
+    padding-left: 150px;
+}
+
+.donationDetailed1 div {
+    width: 50%;
+    margin: 30px;
+}
+
+.donationDetailed1 p {
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: grey;
+}
+
+
+.donationDetailed2 {
+    width: 80%;
+    display: flex;
+    padding: 0px 0px 100px 150px;
+}
+
+.donationDetailed2 div {
+    width: 50%;
+    margin: 30px;
+}
+
+.donationDetailed2 p {
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: grey;
+}
+
+.info {
+    width: 70%;
+    padding-left: 230px;
+    margin-bottom: 200px;
+}
+
+#infoHeading {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.infoBox {
+    background-color: rgba(9, 78, 156, 0.11);
+    height: 220px;
+}
+
+.infoBox div {
+    display: flex;
+    padding-left: 280px;
+    padding-top: 65px;
+}
+
+#email {
+    width: 40%;
+    color: rgba(128, 128, 128, 0.959);
+    background-color: rgba(128, 128, 128, 0.432);
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#sub {
+    color: white;
+    background-color: blueviolet;
+    padding: 20px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+footer {
+    width: 100vw;
+    background-color: rgb(10, 11, 24);
+    margin-bottom: 0;
+    height: 23vh;
+    text-align: center;
+    color: rgba(127, 190, 231, 0.836);
+}
+
+footer div {
+    padding-top: 20px;
+}
+
+footer h1 {
+    font-family: 'Lobster', cursive;
+    color: rgb(223, 128, 247);
+}
+
+.hadith div {
+    height: 150px;
+    width: 60%;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    background-color: rgba(113, 0, 219, 0.158);
+    margin-left: 250px;
+    padding: 50px 30px 0px 30px;
+    margin-bottom: 100px;
+    color: rgba(137, 43, 226, 0.815);
+
+
+}
